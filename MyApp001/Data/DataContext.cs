@@ -12,6 +12,7 @@ namespace MyApp001.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         { }
 
-        public DbSet<AppUser> AppUsers { get; set; }    
+        public DbSet<AppUser> AppUsers { get; set; } 
+        // public DbSet<AppUser> AppUsers { get; set; }     
     }
 }
